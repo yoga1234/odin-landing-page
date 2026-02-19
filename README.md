@@ -1,0 +1,1 @@
+Creating a simple website, a project for Odin Project.
