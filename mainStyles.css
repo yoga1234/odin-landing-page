@@ -143,3 +143,47 @@ body {
   font-weight: 700;
   margin-bottom: 0;
 }
+
+/* action section container */
+.action-section {
+  width: 900px;
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+}
+.action-text-main {
+  font-weight: 700;
+  font-size: 32px;
+  color: #e5e7eb;
+  margin-bottom: 0;
+}
+.action-text-sub {
+  margin-top: 5px;
+  color: #e5e7eb;
+  font-size: 17px;
+}
+.action-button {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action-sign-up-btn {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  padding: 12px 38px 12px 38px;
+  color: #f9faf8;
+  font-size: 18px;
+}
+.action-sign-up-btn:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
