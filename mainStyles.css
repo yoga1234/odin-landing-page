@@ -73,3 +73,42 @@ body {
   background-size: cover;
   border-radius: 7px;
 }
+
+/* main content */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.main-content .main-content-title {
+  font-size: 48px;
+  color: #1f2937;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.main-content .main-content-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main-content .card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.main-content .card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.main-content .card p {
+  width: 250px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
